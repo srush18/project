@@ -1,0 +1,6 @@
+{% load static %}
+
+{% for student in students %}
+<h1>this Qrcode is for {{student.name}}</h1>
+<img src={{student.qr_code.url}}>
+{% endfor %} 
