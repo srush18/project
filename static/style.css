@@ -11,7 +11,7 @@
   .container {
       background: #FFFFFF;
       width: 85vw;
-      height: 85vh;
+      height: 100vh;
       margin: 0 auto;
       position: relative;
       margin-top: 10%;
@@ -182,3 +182,4 @@
   footer a:hover {
       color: #7d7d7d;
   }
+

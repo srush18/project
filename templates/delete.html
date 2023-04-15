@@ -1,0 +1,9 @@
+{% for message in messages %}
+{{message}}
+{% endfor %}
+<form action="#" method="post">
+{% csrf_token %}
+<h2>Enter the roll number you want to delete </h2>
+<p><input type="Number" name="roll_no"  placeholder="Enter your Roll No." required> </p>       
+<input type="submit" name="submit"/>
+</form>
